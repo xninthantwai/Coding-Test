@@ -1,0 +1,32 @@
+.feature{
+    background-color: #EFEFEF;
+    height: auto;
+}
+.feature-container{
+    background-color: #CBD1D9;
+    padding-left: 120px;
+//    padding-bottom: 20px;
+}
+@media(max-width:400px){
+    .feature-container{
+        padding-left: 0;
+    }
+}
+@media(max-width:700px){
+    .feature-container{
+        padding-left: 0;
+    }
+}
+.feature-container p{
+    font-size: 10px;
+}
+@media(max-width:400px){
+    .feature-container img{
+        width: 100%;
+    }
+}
+@media(max-width:700px){
+    .feature img{
+        width: 100%;
+    }
+}

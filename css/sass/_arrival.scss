@@ -1,0 +1,31 @@
+.arrival{
+    width: 100%;
+    height: auto;
+    background-color: #EFEFEF;
+}
+.arrival .bon{
+    border: none;
+    color: white;
+    background-color: #FFCB05;
+    padding: 10px;
+    border-radius: 10px;
+}
+.arrival p{
+    font-size: 13px;
+    font-weight: lighter;
+}
+@media(max-width:700px){
+    .arrival{
+        display: none;
+    }
+}
+@media(max-width:400px){
+    .arrival{
+        display: none;
+    }
+}
+@media(max-width:900px){
+    .arrival{
+        display: none;
+    }
+}

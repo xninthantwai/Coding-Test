@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* for nav  */
+header h3{
+    font-weight: bold;
+}
+header .form-control{
+    background-color: #F3F9FB;
+    width: 350px;
+    border-radius: none;
+    padding: 8px;
+}
+header .searchbutton{
+    background-color: #002561;
+    padding: 5px;
+    border-radius: 4px;
+
+}
+@media(max-width:990px){
+    .sidebar{
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(20px);
+    }
+}
+@media(max-width:700px){
+    .sidebar{
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(20px);
+    }
+}
+@media(max-width:400px){
+    .sidebar{
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(20px);
+    }
+}
+/* for nav  */
+
+/* for home  */
+.home{
+    height: auto;
+    background-color: #EFEFEF;
+    padding-bottom: 50px;
+}
+.home .container{
+    position: relative;
+}
+.home span{
+    font-size: 60px;
+}
+@media(max-width:700px){
+    h3{
+        font-size: 40px;
+    }
+   .home span{
+    font-size: 40px;
+   }
+}
+@media(max-width:400px){
+    h3{
+        font-size: 20px;
+    }
+   .home span{
+    font-size: 20px;
+   }
+}
+.box {
+    font-size: 2em;
+    color: white;
+    height: auto;
+    width: auto;
+    line-height: 220px;
+    border-radius: 10px;
+}
+#box1{
+    background: teal;
+}
+#box2{
+    background: rgb(153, 189, 137);
+    display: none;
+}
+#box3{
+    background: rgb(203, 142, 165);
+    display: none;
+}
+#prev{
+    left: 20px;
+}
+#next{
+    right: 20px;
+}
+.container .btn {
+    position: absolute;
+    background: white;
+    width: 30px;
+    height: 30px;
+    border: 0 none;
+    font-size: 1.5em;
+    top: 42%;
+    opacity: 0.7;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+/* for home  */
+
+/* for product */
+.product{
+    width: 100%;
+    height: auto;
+    background-color: #EFEFEF;
+    padding-bottom: 50px;
+}
+.cato{
+    background-color: #002561;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    padding-left: 55px;
+}
+@media(max-width:400px){
+    .cato{
+        padding-right: 55px;
+    }
+}
+@media(max-width:700px){
+    .cato{
+        padding-right: 55px;
+    }
+}
+@media(max-width:900px){
+    .cato{
+        padding-right: 55px;
+    }
+    .cato h5{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .cato p{
+        font-size: 10px;
+    }
+}
+.card{
+    width: auto;
+    height: auto;
+   margin-top: 25px;
+}
+/* for product */
